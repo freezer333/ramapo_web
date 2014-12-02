@@ -1,0 +1,381 @@
+<!doctype html><html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Scott Frees</title>
+
+<style type='text/css'>
+  *{margin:0;padding:0;}
+  body {
+    font:13.34px helvetica,arial,freesans,clean,sans-serif;
+    color:black;
+    line-height:1.4em;
+    background-color: #F8F8F8;
+    padding: 0.7em;
+  }
+  p {
+    margin:1em 0;
+    line-height:1.5em;
+  }
+  table {
+    font-size:inherit;
+    font:100%;
+    margin-top:1em;
+    margin-bottom:1em;
+  }
+  table th{border-bottom:1px solid #bbb;padding:.2em 1em;}
+  table td{border-bottom:1px solid #ddd;padding:.2em 1em;}
+  input[type=text],input[type=password],input[type=image],textarea{font:99% helvetica,arial,freesans,sans-serif;}
+  select,option{padding:0 .25em;}
+  optgroup{margin-top:.5em;}
+  pre,code{font:12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;}
+  pre {
+    margin:1em 0;
+    font-size:12px;
+    background-color:#eee;
+    border:1px solid #ddd;
+    padding:5px;
+    line-height:1.5em;
+    color:#444;
+    overflow:auto;
+    -webkit-box-shadow:rgba(0,0,0,0.07) 0 1px 2px inset;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;border-radius:3px;
+  }
+  pre code {
+    padding:0;
+    font-size:12px;
+    background-color:#eee;
+    border:none;
+  }
+  code {
+    font-size:12px;
+    background-color:#f8f8ff;
+    color:#444;
+    padding:0 .2em;
+    border:1px solid #dedede;
+  }
+  img{border:0;max-width:100%;}
+  abbr{border-bottom:none;}
+  a{color:#4183c4;text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  a code,a:link code,a:visited code{color:#4183c4;}
+  h2,h3{margin:1em 0;}
+  h1,h2,h3,h4,h5,h6{border:0;}
+  h1{font-size:170%;border-top:4px solid #aaa;padding-top:.5em;margin-top:1.5em;}
+  h1:first-child{margin-top:0;padding-top:.25em;border-top:none;}
+  h2{font-size:150%;margin-top:1.5em;border-top:4px solid #e0e0e0;padding-top:.5em;}
+  h3{margin-top:1em;}
+  hr{border:1px solid #ddd;}
+  ul{margin:1em 0 1em 2em;}
+  ol{margin:1em 0 1em 2em;}
+  ul li,ol li{margin-top:.5em;margin-bottom:.5em;}
+  ul ul,ul ol,ol ol,ol ul{margin-top:0;margin-bottom:0;}
+  blockquote{margin:1em 0;border-left:5px solid #ddd;padding-left:.6em;color:#555;}
+  dt{font-weight:bold;margin-left:1em;}
+  dd{margin-left:2em;margin-bottom:1em;}
+  sup {
+      font-size: 0.83em;
+      vertical-align: super;
+      line-height: 0;
+  }
+  * {
+    -webkit-print-color-adjust: exact;
+  }
+  @media screen and (min-width: 914px) {
+      body {
+          width: 854px;
+          margin:0 auto;
+      }
+  }
+  @media print {
+    table, pre {
+      page-break-inside: avoid;
+    }
+    pre {
+      word-wrap: break-word;
+    }
+  }
+
+
+</style>
+
+</head>
+<h1 id="cmps-231-spring-2014">CMPS 231 Spring 2014</h1>
+<h2 id="data-structures-and-algorithms">Data Structures and Algorithms</h2>
+<p><strong>Meeting Time:  </strong>&nbsp;&nbsp;Mondays and Thursdays, 2:00pm - 3:30pm</p>
+<p><strong>Location:  </strong>&nbsp;&nbsp;ASB Room 426</p>
+<p><strong>Professor:</strong>&nbsp;&nbsp;Scott Frees, Associate Professor of Computer Science</p>
+<p><strong> Contact Information</strong><br/><br>Office&nbsp;&nbsp;G315<br/><br>Phone&nbsp;&nbsp;(201) 684-7726<br/><br>Email&nbsp;&nbsp;<a href="mailto:sfrees@ramapo.edu">sfrees@ramapo.edu</a></p>
+<h2 id="course-description">Course Description</h2>
+<p>TA study of the basic data structures and related algorithms used in software development.  Lists, stacks, queues, arrays, trees, graphs, strings, sorting, searching, and file structures are among the topics presented in this course.</p>
+<h2 id="pre-requisites">Pre-Requisites</h2>
+<p>CMPS 148</p>
+<h2 id="course-materials">Course Materials</h2>
+<p><strong>Textbook</strong> &nbsp;&nbsp; <a href="http://www.amazon.com/Plus-Data-Structures-Nell-Dale/dp/1449646751">C++ Plus Data Structures</a> by Nell Dale</p>
+<p><img src='http://ecx.images-amazon.com/images/I/51vZCeCp8HL.jpg' width="200"/></p>
+<p><em>Note, the textbook is required for this course, and will be relavent to nearly each lecture.</em></p>
+<h2 id="course-objectives">Course Objectives</h2>
+<ul>
+<li>A reinforced understanding of C++ classes and object oriented programming.</li>
+<li>A fundamental knowledge of abstract data types, their implementation and algorithms that manipulate them.</li>
+<li>An understanding of the analysis of algorithms.</li>
+<li>The ability to select the proper data structure and related algorithm for a given application.</li>
+<li>A better understanding of the aspects of the C/C++ language and improved programming skills.</li>
+</ul>
+<h2 id="course-topics">Course Topics</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Lecture</th>
+<th style="text-align:left">Date</th>
+<th style="text-align:left">Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">1</td>
+<td style="text-align:left">9/4/14</td>
+<td style="text-align:left">Classes Review</td>
+</tr>
+<tr>
+<td style="text-align:left">1</td>
+<td style="text-align:left">9/8/14</td>
+<td style="text-align:left">C++ Functions Review</td>
+</tr>
+<tr>
+<td style="text-align:left">2</td>
+<td style="text-align:left">9/11/14</td>
+<td style="text-align:left">C++ Classes Review</td>
+</tr>
+<tr>
+<td style="text-align:left">3</td>
+<td style="text-align:left">9/15/14</td>
+<td style="text-align:left">Pointers and Dynamic Allocation Review</td>
+</tr>
+<tr>
+<td style="text-align:left">4</td>
+<td style="text-align:left">9/18/14</td>
+<td style="text-align:left">ADT &amp; Big O Notation - Intro to Linked List</td>
+</tr>
+<tr>
+<td style="text-align:left">5</td>
+<td style="text-align:left">9/22/14</td>
+<td style="text-align:left">Linked List</td>
+</tr>
+<tr>
+<td style="text-align:left">6</td>
+<td style="text-align:left">9/25/14</td>
+<td style="text-align:left">Linked List Continued - Iterators</td>
+</tr>
+<tr>
+<td style="text-align:left">7</td>
+<td style="text-align:left">9/29/14</td>
+<td style="text-align:left">Sorted List.  Array-Based Lists</td>
+</tr>
+<tr>
+<td style="text-align:left">8</td>
+<td style="text-align:left">10/2/14</td>
+<td style="text-align:left"><em>No Class Held</em></td>
+</tr>
+<tr>
+<td style="text-align:left">9</td>
+<td style="text-align:left">10/6/14</td>
+<td style="text-align:left"><strong>Quiz 1</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">10</td>
+<td style="text-align:left">10/9/14</td>
+<td style="text-align:left">C++ vector class</td>
+</tr>
+<tr>
+<td style="text-align:left">11</td>
+<td style="text-align:left">10/13/14</td>
+<td style="text-align:left">Stacks</td>
+</tr>
+<tr>
+<td style="text-align:left">12</td>
+<td style="text-align:left">10/16/14</td>
+<td style="text-align:left">Queues</td>
+</tr>
+<tr>
+<td style="text-align:left">13</td>
+<td style="text-align:left">10/20/14</td>
+<td style="text-align:left">Recursion and Binary Search</td>
+</tr>
+<tr>
+<td style="text-align:left">14</td>
+<td style="text-align:left">10/23/14</td>
+<td style="text-align:left">Binary Search Trees</td>
+</tr>
+<tr>
+<td style="text-align:left">14</td>
+<td style="text-align:left">10/27/14</td>
+<td style="text-align:left">Binary Search Trees</td>
+</tr>
+<tr>
+<td style="text-align:left">14</td>
+<td style="text-align:left">10/30/14</td>
+<td style="text-align:left"><strong>Quiz 2</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">14</td>
+<td style="text-align:left">11/3/14</td>
+<td style="text-align:left">Priority Queue and Heaps</td>
+</tr>
+<tr>
+<td style="text-align:left">14</td>
+<td style="text-align:left">11/6/14</td>
+<td style="text-align:left">Priority Queue and Heaps</td>
+</tr>
+<tr>
+<td style="text-align:left">14</td>
+<td style="text-align:left">11/10/14</td>
+<td style="text-align:left">Graph Algorithms (ADT)</td>
+</tr>
+<tr>
+<td style="text-align:left">14</td>
+<td style="text-align:left">11/13/14</td>
+<td style="text-align:left">Graph Algorithms (Search)</td>
+</tr>
+<tr>
+<td style="text-align:left">14</td>
+<td style="text-align:left">11/17/14</td>
+<td style="text-align:left">Hashing and Hash Tables</td>
+</tr>
+<tr>
+<td style="text-align:left">14</td>
+<td style="text-align:left">11/20/14</td>
+<td style="text-align:left">C++ Maps and Associative Arrays</td>
+</tr>
+<tr>
+<td style="text-align:left">14</td>
+<td style="text-align:left">11/24/14</td>
+<td style="text-align:left"><strong>Quiz 3</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">14</td>
+<td style="text-align:left">11/27/14</td>
+<td style="text-align:left"><em>Thanksgiving Break</em></td>
+</tr>
+<tr>
+<td style="text-align:left">14</td>
+<td style="text-align:left">12/1/14</td>
+<td style="text-align:left">Sorting 1 - Simple Sorting Algorithms</td>
+</tr>
+<tr>
+<td style="text-align:left">14</td>
+<td style="text-align:left">12/4/14</td>
+<td style="text-align:left">Sorting 2 - The Radix Sort</td>
+</tr>
+<tr>
+<td style="text-align:left">14</td>
+<td style="text-align:left">12/8/14</td>
+<td style="text-align:left">Sorting 3 - Recursive Sorts</td>
+</tr>
+<tr>
+<td style="text-align:left">14</td>
+<td style="text-align:left">12/11/14</td>
+<td style="text-align:left">Review for Final Exam</td>
+</tr>
+</tbody>
+</table>
+<h2 id="labs">Labs</h2>
+<p>Labs are graded on a 10 point scale, and will be completed both during class time and on your own time, as lecture dictates.  All labs are submitted electronically as .cpp source code files.</p>
+<ul>
+<li><a href="https://docs.google.com/document/d/1WTnqwY5R6QAgPSXKRSz6V1axejkT__EhAuJb9exFNm4/pub">Lab 1 - Working with Functions (and testing)</a> <em>Due on 9/11/2014</em></li>
+<li><a href="https://docs.google.com/document/d/11ei4KEyYrpcvhy8E5D_NLSenlRm8zVlQziPsBJzZHWk/pub">Lab 2 - Objects</a> <em>Due on 9/15/2014</em></li>
+<li><a href="https://docs.google.com/document/d/12DkDa2_6eSjF3L-ETXGtnG1DTnQnA9DSEJXLxoBd4x8/pub">Lab 3 - Dynamic Arrays</a> <em>Due on 9/18/2014</em></li>
+<li><a href="https://docs.google.com/document/d/1mr-sJiET5oJpaIiTGMO8yBT7Tw8P3c8hc05XVU4f0Js/pub">Lab 4 - Using STL Stacks</a> <em>Due on 10/16/2014</em></li>
+<li><a href="https://docs.google.com/document/d/1jiy9Grx2H8aCaFTdURyZTuszhb2jzKkOXp0N_QtDSWA/pub">Lab 5 - Extending the Binary Tree Implementation</a> <em>Due on 10/30/2014</em></li>
+<li><a href="https://docs.google.com/document/d/16ULqDDjsk-MSEf7O1cJmYJq9YG5U0AMlW1HM5fi3w90/pub">Lab 6 - Using Priority Heaps for Sorting</a> <em>Due on 11/10/2014</em></li>
+<li><a href="https://docs.google.com/document/d/1cDGw_RgP_B9505f-FsihoiU2rMuMI2znpt9VtC_67-w/pub">Lab 7 - Hashing Doubles</a> <em>Due on 11/24/2014</em></li>
+</ul>
+<h2 id="homework-assignments">Homework Assignments</h2>
+<p>Homework assignments are worth between 50 and 100 points, and are turned in electronically as well.  </p>
+<ul>
+<li><p><a href="https://docs.google.com/document/d/1FT_xvjSADWswwH88qdNlFVRq7irMpi1j08TtWwZ6Z9Q/pub">Homework 1 - Linked List Manipulation</a></p>
+<ul>
+<li>100 points, programming assignment</li>
+<li>Due on</li>
+</ul>
+</li>
+<li><p><a href="https://docs.google.com/document/d/1BrgWsEmGicRezsjjpprtfQXlaxpa5q0rxpVp4s6DoZ0/pub">Homework 2 - Polynomials with the STL Vector class</a></p>
+<ul>
+<li>100 points, programming assignment</li>
+<li>Due on </li>
+</ul>
+</li>
+<li><p><a href="https://docs.google.com/document/d/14BPq7dt-rryiahHswaFl-rtcPtRErnxDrzEImYnHJzc/pub">Homework 3 - Palindromes with STL Stacks and Queues</a></p>
+<ul>
+<li>100 points, programming assignment</li>
+<li>Due on</li>
+</ul>
+</li>
+<li><p><a href="https://docs.google.com/document/d/17UwY8by_D7UILY3tX3iHmp4BNHH51_DtW69LHnrxIVc/pub">Homework 4 - Binary Search Trees</a></p>
+<ul>
+<li>50 points, written problems - not code</li>
+<li>Due on</li>
+</ul>
+</li>
+<li><p><a href="https://docs.google.com/document/d/1m0GFCNY8OB-2WG7MO20Aga3mVjai0LW5Rr8iNxWHxDM/pub">Homework 5 - Priority Queues</a></p>
+<ul>
+<li>50 points, written problems - not code</li>
+<li>Due on</li>
+</ul>
+</li>
+<li><p><a href="https://docs.google.com/document/d/1B0v3-e90WKz5YHgNHtQBn3gpQ2qHTwSKqwyRCtCZXBQ/pub">Homework 6 - Graphs</a></p>
+<ul>
+<li>50 points, combined written and code assignment</li>
+<li>Due on</li>
+</ul>
+</li>
+<li><p><a href="https://docs.google.com/document/d/1QrHh5I3o9gs4CNN_8tvbe2HD8OsB4K2AaiOEpc-MxnQ/pub">Homework 7 - Implementing the Radix Sort</a></p>
+<ul>
+<li>100 points, will be started in class</li>
+<li>Due on</li>
+</ul>
+</li>
+</ul>
+<h2 id="late-policy">Late Policy</h2>
+<p>All assignments will be turned in electronically.  A late penalty of 5 points per day will be applied to all late assignments.  The required format/method of your electronic submissions will be outlined for each assignment.  Deviation from these requirements may result in a 5-point penalty.  </p>
+<h2 id="attendance-policy">Attendance Policy</h2>
+<p>Attendance will be recorded by the instructor and, along with class participation, will be a determining factor in making border-line final grade decisions</p>
+<h2 id="grading">Grading</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">%</th>
+<th style="text-align:left">Activity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">45%</td>
+<td style="text-align:left">Quizzes (x3)</td>
+</tr>
+<tr>
+<td style="text-align:right">25%</td>
+<td style="text-align:left">Final Exam</td>
+</tr>
+<tr>
+<td style="text-align:right">10%</td>
+<td style="text-align:left">Lab Assignments</td>
+</tr>
+<tr>
+<td style="text-align:right">15%</td>
+<td style="text-align:left">Homework Assignments</td>
+</tr>
+<tr>
+<td style="text-align:right">5%</td>
+<td style="text-align:left">Attendance and Participation</td>
+</tr>
+</tbody>
+</table>
+<h2 id="academic-integrity">Academic Integrity</h2>
+<p>Students are expected to read and understand Ramapo College’s Academic Integrity Policy, which can be found in the Ramapo College Catalog.  Members of the Ramapo College community are expected to be honest and forthright in their academic endeavors.  Students who are suspected of violating this policy will be referred to the Office of the Provost.</p>
+<h3 id="academic-integrity-specific-to-this-course">ACADEMIC INTEGRITY SPECIFIC TO THIS COURSE</h3>
+<p>For programming assignments (Homework Assignments), you may discuss ideas, however you may not allow others to see your source code or examine others’.  Sharing of source code is extremely easy to detect and is strictly prohibited.  </p>
+<p>IF SHARING OF SOURCE CODE IS SUSPECTED, INTENTIONAL OR OTHERWISE, BOTH PARTIES WILL IMMEDIATELY BE REFERRED TO THE OFFICE OF THE PROVOST.</p>
+</html>
