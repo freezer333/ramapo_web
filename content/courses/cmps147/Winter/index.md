@@ -152,6 +152,8 @@ There are four assigned homework problems, with due dates listed on moodle (and 
 
 
 ## Exams (Mid Term and Final)
+All exams are open book, open notes, and open computer/internet - but you must use the machines in our labs.   The only thing you are not allowed to use is any social media/email/chat program that can allow you to communicate with others.  Exams will be a mix of actual coding, and some written questions.
+
 Midterm and Final Exams will be proctored, **meaning you will be required to come to campus twice during the four week semester**.  Special accommodations/waivers for this policy will be made on a case-by-case basis, typically for students who attend other institutions as their primary degree-granting school or Ramapo students who live beyond reasonable commuting distance (~1 hour) from campus.  **This must be negotiated with the instructor before December 26th 14th**.  
 
 Mid-Term exam will January 5th, and the final exam will be held on January 16th.  Exam proctoring will be scheduled with every attempt to accommodate student schedules, including a night session to allow working students to attend.  The exams will last 3 hours each.

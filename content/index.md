@@ -39,5 +39,7 @@ Mahwah, NJ 07430
 12.	Frees, S., Kessler, G.D. (2004) "[Dynamically Scaled Interaction for Precise, Direct 3D Manipulation](pdf/ieeevr04.pdf)". IEEE Virtual Reality Workshop: Beyond Wand and Glove-Based Interaction, Chicago, IL
 [See a list of all my publications and presentations](pubs.html)
 
-## Misc
+## More about me
+<a style="margin-right:2em" href="http://scholar.google.com/citations?user=QV5PTV4AAAAJ&amp;hl=en"><img style="vertical-align:bottom;margin-top:0.5;width:100px" src="images/scholar.gif"></a><a href="http://www.linkedin.com/pub/scott-frees/4/1aa/764"><img style="margin-right:2em" class="nodec" src="images/logo_linkedin_92x22.png"></a>
+
 Blog, Github, LinkedIn, Google Scholar
