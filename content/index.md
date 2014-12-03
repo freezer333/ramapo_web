@@ -12,8 +12,7 @@ Ramapo College of New Jersey
 505 Ramapo Valley Road
 Mahwah, NJ 07430
 
-<hr/>
-<a style="vertical-align:top;margin-right:2em" href="http://scholar.google.com/citations?user=QV5PTV4AAAAJ&amp;hl=en"><img style="vertical-align:bottom;margin-top:0.5;width:100px" src="images/scholar.gif"></a><a href="http://www.linkedin.com/pub/scott-frees/4/1aa/764"><img style="vertical-align:top;margin-right:2em" class="nodec" src="images/logo_linkedin_92x22.png"></a><a href="https://github.com/freezer333"><img style="height:40px;vertical-align:top;margin-right:2em" class="nodec" src="images/github-img.png"></a>
+
 
 ## Course Schedule (Fall 2014)
 | |  | | |
@@ -40,8 +39,13 @@ Mahwah, NJ 07430
 10.	Frees, S., Kessler, G.D. (2005) "[Precise and Rapid Interaction through Scaled Manipulation in Immersive Virtual Environments](pdf/FreesVR05.pdf)". Proceedings of IEEE Virtual Reality, Bonn, Germany. pp. 99-106  
 11.	Frees, S., Kessler, G.D. (2004) "[The Design and Evaluation of Collaborative Tools to Support Communication and Active Learning for Course Work](pdf/cimelFIE2004.pdf)". Proceedings of Frontiers in Education, Savannah, GA. pp. S3B20-25  
 12.	Frees, S., Kessler, G.D. (2004) "[Dynamically Scaled Interaction for Precise, Direct 3D Manipulation](pdf/ieeevr04.pdf)". IEEE Virtual Reality Workshop: Beyond Wand and Glove-Based Interaction, Chicago, IL
+
+
 [See a list of all my publications and presentations](pubs.html)
 
-
+# &nbsp;
+<div style="padding-bottom:10em"> 
+<a style="margin-right:2em" href="http://scholar.google.com/citations?user=QV5PTV4AAAAJ&amp;hl=en"><img style="vertical-align:middle;height:22px;" src="images/scholar.gif"></a><a href="http://www.linkedin.com/pub/scott-frees/4/1aa/764"><img style="height:22px;vertical-align:middle;margin-right:1em" class="nodec" src="images/logo_linkedin_92x22.png"></a><a href="https://github.com/freezer333"><img style="height:22px;vertical-align:middle;margin-right:2em" class="nodec" src="images/github-img.jpeg"></a>
+</div>
 
 
