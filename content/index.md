@@ -24,8 +24,6 @@ Mahwah, NJ 07430
 
 **Office Hours**:  Wednesdays 4-6pm or by appointment
 
-[See all the courses I teach on a regular basis](courses/courses.html)
-
 ## Publications
 1.	Frees, S. (2015) “[A place for Node.js in the Computer Science Curriculum](http://dl.acm.org/citation.cfm?id=2675341)”. Journal of Computing Sciences in Colleges. Volume 30, Issue 3.  pp 84-91
 2.	Frees, S., Menendez, C, Crum, M., and Bagga, P. (2014) “[QGRS-Conserve:  a computational method for discovering evolutionarily conserved G-quadruplex motifs](http://www.humgenomics.com/content/8/1/8).  Human Genomics. Vol 8 Issues 8
@@ -44,8 +42,6 @@ Mahwah, NJ 07430
 [See a list of all my publications and presentations](pubs.html)
 
 # &nbsp;
-<div style="padding-bottom:10em"> 
+<div style="padding-bottom:10em">
 <a style="margin-right:2em" href="http://scholar.google.com/citations?user=QV5PTV4AAAAJ&amp;hl=en"><img style="vertical-align:middle;height:22px;" src="images/scholar.gif"></a><a href="http://www.linkedin.com/pub/scott-frees/4/1aa/764"><img style="height:22px;vertical-align:middle;margin-right:1em" class="nodec" src="images/logo_linkedin_92x22.png"></a><a href="https://github.com/freezer333"><img style="height:22px;vertical-align:middle;margin-right:2em" class="nodec" src="images/github-img.jpeg"></a>
 </div>
-
-
